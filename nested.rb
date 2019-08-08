@@ -86,7 +86,7 @@ def adding_matz
         }
      }
 
- newly_added_to_hash = programmer_hash[:yukihiro_matsumoto][:known_for => "COBOL"][:languages => "COBOL"][:languages => "FORTRAN"]
+ programmer_hash.key = [:yukihiro_matsumoto][:known_for => "COBOL"][:languages => "COBOL"][:languages => "FORTRAN"]
 
 end
 
